@@ -1,0 +1,16 @@
+<datasources> 
+  <local-tx-datasource> 
+ 
+    <jndi-name>projetDS</jndi-name> 
+ 
+    <connection-url>jdbc:postgresql://localhost:5432/EPRHBD</connection-url> 
+    <driver-class>org.postgresql.Driver</driver-class> 
+ 
+    <user-name>postgres</user-name> 
+    <password>foko</password> 
+ 
+    <connection-property name="autoReconnect">true</connection-property>
+ 
+  </local-tx-datasource> 
+</datasources> 
+
